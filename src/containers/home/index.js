@@ -12,6 +12,7 @@ import {
 const Home = props => (
   <div>
     <h1>Home</h1>
+    <p>This repo came with a simple counter - I didn't mess with it</p>
     <p>Count: {props.count}</p>
 
     <p>
@@ -25,6 +26,7 @@ const Home = props => (
     </p>
 
     <p><button onClick={() => props.changePage()}>Go to about page via redux</button></p>
+
   </div>
 )
 
